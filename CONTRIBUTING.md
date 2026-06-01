@@ -125,6 +125,74 @@ If your code snippet is long, then you can save the code in a file in `docs/snip
 ```
 It doesn't matter where you are in the docs folder, it will always link to the file correctly.
 
+### Enriched answer format
+
+For interview questions that benefit from study material (theory, code, complexity), use multiple `<details>` sections inside `<article>`. The site converts them into tabs (see `docs/.vitepress/plugins/prehook.js`).
+
+**Recommended tab order:**
+
+1. **Theory and explanation** — full conceptual answer; do not shorten for length. Include interview talking points.
+2. **Solution (JavaScript)** — working code, a **Code walkthrough**, **Complexity** table, and **Edge cases** where relevant.
+3. **Solution (other languages)** — only when C++, Python, or similar already exists or you add a second implementation.
+
+**Theory section should end with:**
+
+```markdown
+#### Further reading
+- [Title](url) — one line on why it is useful
+```
+
+**Complexity guidelines:**
+
+| Question type | Time / space |
+|---------------|--------------|
+| Single-pass array scan | O(n) time, O(1) extra space |
+| Sorting | O(n log n) typical comparison sort |
+| Conceptual (e.g. “What is GraphQL?”) | N/A (conceptual) |
+
+**Example skeleton:**
+
+```html
+<article>
+
+Your question here?
+
+<details><summary>Theory and explanation</summary>
+
+Full explanation...
+
+#### Further reading
+- [MDN: Example](https://developer.mozilla.org/) — reference
+
+</details>
+
+<details><summary>Solution (JavaScript)</summary>
+
+```js
+// solution
+```
+
+#### Code walkthrough
+Explain each important step.
+
+#### Complexity
+| | |
+|-|-|
+| Time | O(n) |
+| Space | O(1) |
+
+#### Edge cases
+List empty input, invalid args, etc.
+
+</details>
+
+</article>
+```
+
+Long solutions can live under `docs/snippets/<company>/` and be included with `<<< @/snippets/<company>/file.js`.
+
+After enriching a company page, you may add an `updated` badge for that company in `docs/.vitepress/sitemap/companies.mjs`.
+
 ### Adding Badges
 If you want to add badges to your question or answer, you can use the following format:
 
