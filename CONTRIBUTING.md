@@ -191,7 +191,15 @@ List empty input, invalid args, etc.
 
 Long solutions can live under `docs/snippets/<company>/` and be included with `<<< @/snippets/<company>/file.js`.
 
+**Do not add placeholder content:**
+
+- Skip the **Solution (JavaScript)** tab for pure theory, MCQ, or behavioral questions unless a short code demo genuinely helps.
+- Do not paste generic **Interview talking points** boilerplate; only include talking points when they are specific to that question.
+- Avoid duplicating the same paragraph in the theory section (e.g. prepending a topic blurb that repeats the answer below).
+
 After enriching a company page, you may add an `updated` badge for that company in `docs/.vitepress/sitemap/companies.mjs`.
+
+To fix duplicate theory or placeholder tabs in bulk, run `python scripts/cleanup_enrichment.py`.
 
 ### Adding Badges
 If you want to add badges to your question or answer, you can use the following format:

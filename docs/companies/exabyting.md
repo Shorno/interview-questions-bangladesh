@@ -79,43 +79,14 @@ Difference between Array and Linked List.
 
 Read more from [Array vs Linked List | GeeksforGeeks](https://www.geeksforgeeks.org/array-vs-linked-list/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -147,47 +118,14 @@ For general-purpose comparison sorting of ~1000 integers (positive and negative)
 
 Merge sort and Quick sort work better in the average case. Merge sort has a time complexity of `O(nlogn)` in the worst case. Quick sort has a time complexity of `O(nlogn)` in the average case. Both are stable sorting algorithms and work well with large and medium datasets.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -211,47 +149,14 @@ Use **merge sort** or **introsort** (stdlib `sort` hybrid).
 
 We can use merge sort to sort the 1000 numbers. Merge sort has a time complexity of `O(nlogn)` in the worst case. It is a stable sorting algorithm and works well with large and medium datasets. Merge sort is a divide and conquer algorithm.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -277,13 +182,6 @@ What is Stack, Queue and Priority Queue?
 - **Queue**: A queue is a linear data structure that follows the First In First Out (FIFO) principle. It has two main operations: enqueue (insert) and dequeue (remove).
 - **Priority Queue**: A priority queue is a data structure that stores elements based on their priority. It allows elements with higher priority to be dequeued before elements with lower priority.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -291,30 +189,8 @@ What is Stack, Queue and Priority Queue?
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -341,43 +217,14 @@ Difference between Binary Tree and BST.
 
 If the binary search tree is imbalanced, then we can make it balanced by using AVL tree or Red-Black tree. These trees are self-balancing binary search trees.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -409,13 +256,6 @@ Mention **CDN**, **HTTP/2 multiplexing**, and **caching** (Cache-Control) for de
 
 This is a very important question and aims to check the knowledge of networking. A very thorough explanation of this question is answered here in [What Happens When](https://github.com/alex/what-happens-when)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -423,34 +263,8 @@ This is a very important question and aims to check the knowledge of networking.
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -483,43 +297,14 @@ The main difference between TCP (transmission control protocol) and UDP (user da
 
 Read more from [TCP vs UDP: What's the Difference? | Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-vs-udp/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Cloudflare Learning Center](https://www.cloudflare.com/learning/) — networking concepts
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -558,43 +343,14 @@ The four main principles of Object-Oriented Programming (OOP) are:
 
 OOP is used to model real-world entities and relationships in software development. It promotes code reusability, modularity, and maintainability by organizing code into classes and objects. OOP also supports concepts like inheritance, polymorphism, and encapsulation, making it easier to manage complex systems.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Oracle Java Tutorials: OOP](https://docs.oracle.com/javase/tutorial/java/concepts/) — class design
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -621,43 +377,14 @@ Choose SQL when relationships and strong consistency matter; NoSQL for high writ
 
 Read more from [Understanding SQL vs NoSQL Databases | MongoDB](https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -684,13 +411,6 @@ Difference between Compiler and Interpreter.
 
 To learn more about the difference between Compiler and Interpreter, read this article: [Difference between Compiler and Interpreter](https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -698,30 +418,8 @@ To learn more about the difference between Compiler and Interpreter, read this a
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -733,41 +431,14 @@ Explain BST.
 
 **Binary Search Tree**: A binary search tree is a binary tree in which the value of the left child is less than the parent node and the value of the right child is greater than the parent node.
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -790,41 +461,14 @@ The tree will look like this:
 ```
 And the search complexity will be `O(n)` in this case. To make the search complexity `O(logn)`, we have to make the tree balanced. We can use AVL tree or Red-Black tree to make the tree balanced.
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -850,45 +494,14 @@ FROM students
 LEFT JOIN marks ON students.id = marks.student_id;
 ```
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -928,47 +541,14 @@ ACID is a set of properties of database transactions intended to guarantee data 
 > [!IMPORTANT]
 > Atomicity, isolation and durability are properties of the database, whereas consistency is a property of the application. The C in ACID was tossed in to make the acronym work. [ref: Martin Kleppmann, Designing Data Intensive Applications]
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -990,18 +570,11 @@ Trade-off: faster reads, slower writes (maintain index), storage overhead.
 
 Trade-off: faster reads, slower writes (maintain index), storage overhead.
 
-Indexing is a data structure technique that is used to quickly locate and access the data in a database. it is created mainly using B+ trees. 
+Indexing is a data structure technique that is used to quickly locate and access the data in a database. it is created mainly using B+ trees.
 
-If a column has duplicate elements, then we can still create index on that column. 
+If a column has duplicate elements, then we can still create index on that column.
 
 Read more from [What is Indexing in Database? | Medium](https://medium.com/@rtawadrous/introduction-to-database-indexes-9b488e243cc1)
-
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
 
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
@@ -1009,34 +582,8 @@ Read more from [What is Indexing in Database? | Medium](https://medium.com/@rtaw
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -1058,13 +605,6 @@ JavaScript has one **call stack** (synchronous code). Async work goes to **Web A
 
 **Interview:** `async/await` is syntax over Promises; still single-threaded — no parallel CPU threads without Workers.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 - [Oracle Java Tutorials: OOP](https://docs.oracle.com/javase/tutorial/java/concepts/) — class design
@@ -1072,34 +612,8 @@ JavaScript has one **call stack** (synchronous code). Async work goes to **Web A
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -1121,43 +635,14 @@ Inner functions keep outer bindings alive after outer returns — stored in heap
 
 Use cases: data privacy, factories, callbacks. Pitfall: loop `var` in closures — use `let` or IIFE.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1179,43 +664,14 @@ vs **direct DOM:** manual `querySelector` + update does not scale; easy to creat
 
 vs **direct DOM:** manual `querySelector` + update does not scale; easy to create inconsistent UI state.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1233,13 +689,6 @@ Props are **read-only** inputs from parent. Mutating them breaks **single source
 
 Use **state** in child or **lift state up** / callbacks to parent. Violation causes subtle bugs and breaks memoization.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -1247,30 +696,8 @@ Use **state** in child or **lift state up** / callbacks to parent. Violation cau
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1292,13 +719,6 @@ Benefits: fast prototyping, consistent spacing/colors, purge unused CSS in produ
 
 Trade-off: verbose class lists; use `@apply` or components for repetition.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -1306,30 +726,8 @@ Trade-off: verbose class lists; use `@apply` or components for repetition.
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1354,34 +752,8 @@ Not AOT-compiled like C. TypeScript only strips types; output is still JS.
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -1403,47 +775,14 @@ JS runs user code on **one thread**; blocking the stack blocks everything.
 
 **Workers** (`Worker`, `SharedArrayBuffer`) for true parallelism — not default model.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -1461,13 +800,6 @@ Event loop phases: timers → pending → idle → poll → check → close. Int
 
 Event loop phases: timers → pending → idle → poll → check → close. Interview: file read may use thread pool; network uses OS async APIs.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 - [Oracle Java Tutorials: OOP](https://docs.oracle.com/javase/tutorial/java/concepts/) — class design
@@ -1475,30 +807,8 @@ Event loop phases: timers → pending → idle → poll → check → close. Int
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1530,43 +840,14 @@ Prefer **const** default, **let** when rebinding, avoid **var** in modern JS.
 
 Read more from [Var, Let, and Const – What's the Difference? | FreeCodeCamp](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1596,43 +877,14 @@ Hoisting is a JavaScript mechanism where variables and function declarations are
 
 Read more from [JavaScript Hoisting Explained | DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1659,13 +911,6 @@ Explain primitive and reference data types.
 
 Read more from [JavaScript Primitive Values vs Reference Values | FreeCodeCamp](https://www.freecodecamp.org/news/javascript-assigning-values-vs-assigning-references/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -1673,30 +918,8 @@ Read more from [JavaScript Primitive Values vs Reference Values | FreeCodeCamp](
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1718,43 +941,14 @@ Inner functions keep outer bindings alive after outer returns — stored in heap
 
 Use cases: data privacy, factories, callbacks. Pitfall: loop `var` in closures — use `let` or IIFE.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [MDN: JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) — language reference
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1784,13 +978,6 @@ A pure function is a function where the return value is determined by its input 
 
 Read more from [Pure Functions in JavaScript | Medium]https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -1798,30 +985,8 @@ Read more from [Pure Functions in JavaScript | Medium]https://medium.com/javascr
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1839,13 +1004,6 @@ Emphasize **immutable data**, **pure functions**, **higher-order functions** (`m
 
 In JS: avoid mutating arrays (`spread`, `map`), use `const`, prefer declarative chains. Libraries: Ramda, lodash/fp.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -1853,34 +1011,8 @@ In JS: avoid mutating arrays (`spread`, `map`), use `const`, prefer declarative 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -1920,43 +1052,14 @@ ACID is a set of properties of database transactions intended to guarantee data 
 > [!IMPORTANT]
 > Atomicity, isolation and durability are properties of the database, whereas consistency is a property of the application. The C in ACID was tossed in to make the acronym work. [ref: Martin Kleppmann, Designing Data Intensive Applications]
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -1978,18 +1081,11 @@ Trade-off: faster reads, slower writes (maintain index), storage overhead.
 
 Trade-off: faster reads, slower writes (maintain index), storage overhead.
 
-Indexing is a data structure technique that is used to quickly locate and access the data in a database. it is created mainly using B+ trees. 
+Indexing is a data structure technique that is used to quickly locate and access the data in a database. it is created mainly using B+ trees.
 
 Indexing is important because it helps to speed up the retrieval of data from the database. It is used to quickly locate and access the data in a database. Without an index, the database engine has to scan the entire table to find the data. This can be very slow if the table is large. However, creating an unnecessary index can slow down the database system because the database engine has to update the index every time the table is updated.
 
 Read more from [What is Indexing in Database? | Medium](https://medium.com/@rtawadrous/introduction-to-database-indexes-9b488e243cc1)
-
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
 
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
@@ -1997,30 +1093,8 @@ Read more from [What is Indexing in Database? | Medium](https://medium.com/@rtaw
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2034,45 +1108,14 @@ Suppose, we want to use user_email as index. How can we do it?
 CREATE INDEX user_email_index ON users (user_email);
 ```
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -2087,41 +1130,14 @@ Explain tree, binary tree, binary search tree. In a binary search tree, if the t
 
 If the binary search tree is imbalanced, then we can make it balanced by using AVL tree or Red-Black tree. These trees are self-balancing binary search trees.
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2144,13 +1160,6 @@ Explain the map, unordered_map and their complexity. Why does the complexity of 
 
 Read more from [Map vs Unordered Map in C++ | GeeksforGeeks](https://www.geeksforgeeks.org/map-vs-unordered_map-c/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
@@ -2158,30 +1167,8 @@ Read more from [Map vs Unordered Map in C++ | GeeksforGeeks](https://www.geeksfo
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2218,43 +1205,14 @@ The four main principles of Object-Oriented Programming (OOP) are:
 - **Inheritance** – Enabling a class to derive properties and behavior from another class.
 - **Polymorphism** – Allowing a single interface to represent different data types or methods (e.g., method overloading and overriding).
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Oracle Java Tutorials: OOP](https://docs.oracle.com/javase/tutorial/java/concepts/) — class design
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2266,45 +1224,14 @@ Do you know there is an OOP feature which is only in C/C++?
 
 Operator overloading is a feature in C++ that allows operators to be redefined so that they work with user-defined types. This feature is not available in all OOP languages like Java or Python.
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Oracle Java Tutorials: OOP](https://docs.oracle.com/javase/tutorial/java/concepts/) — class design
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -2314,42 +1241,20 @@ Explain the difference between an array and a linked list. Tell me some use case
 
 <details><summary>Theory and explanation</summary>
 
-**Interview talking points**
+**Answer framework:** State the direct answer first, then explain with one example and one trade-off.
 
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
+**Question:** Explain the difference between an array and a linked list. Tell me some use cases for each of them. How can we access an element of an array with the index?
 
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 - [VisuAlgo](https://visualgo.net/en) — interactive data structure visualizations
 
-</details>
-
-
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
-
-
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
 
 </details>
+
+
+
+
 
 </article>
 
@@ -2372,43 +1277,14 @@ Explain HTTP and HTTPS. Why HTTPS? How does data transfer in HTTPS? What is used
 
 In HTTPS, data transfer is encrypted using SSL/TLS (Secure Sockets Layer / Transport Layer Security). When a user connects to a secure website, the browser and server perform an SSL/TLS handshake, exchanging encryption keys and verifying the server’s identity using an SSL certificate issued by a trusted Certificate Authority (CA). The encryption uses asymmetric cryptography (RSA, ECC) for key exchange and symmetric encryption (AES) for actual data transfer, ensuring secure communication.
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Cloudflare Learning Center](https://www.cloudflare.com/learning/) — networking concepts
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2422,45 +1298,14 @@ HTTPS itself is stateless because it follows the HTTP protocol, which does not r
 
 When we log in, the server sends a session ID (stored in a cookie) to our browser. This session ID is sent with every request, allowing the server to recognize and authenticate us. Additionally, modern web applications use JWT (JSON Web Tokens) or OAuth tokens for secure authentication and session management. This way, even though HTTPS is stateless, the session is maintained through these mechanisms.
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Cloudflare Learning Center](https://www.cloudflare.com/learning/) — networking concepts
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>
 
@@ -2488,43 +1333,14 @@ Server creates session on login → **Set-Cookie** (`sessionId`). Browser auto-s
 
 Read more from [Cookie-Based Authentication: A Comprehensive Guide | Auth0](https://auth0.com/blog/cookies-vs-tokens-definitive-guide/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Cloudflare Learning Center](https://www.cloudflare.com/learning/) — networking concepts
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2558,43 +1374,14 @@ JWT (JSON Web Token) is a compact, URL-safe means of representing claims to be t
 
 Read more from [Introduction to JSON Web Tokens | JWT.io](https://jwt.io/introduction/)
 
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Cloudflare Learning Center](https://www.cloudflare.com/learning/) — networking concepts
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2620,11 +1407,6 @@ The output must be only one word, "YES" or "NO".
 | 111<br>010       | YES    |
 | 1110011<br>01010 | NO     |
 | 1001001000<br>10 | NO     |
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
 
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
@@ -2669,14 +1451,14 @@ Convert a decimal number to binary and show the output in string.
 
 <details><summary>Theory and explanation</summary>
 
-**Interview talking points**
+**Answer framework:** State the direct answer first, then explain with one example and one trade-off.
 
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
+**Question:** Convert a decimal number to binary and show the output in string.
 
 #### Further reading
 - [GeeksforGeeks](https://www.geeksforgeeks.org/) — interview CS topics
 - [MDN Web Docs](https://developer.mozilla.org/) — web and JS reference
+
 
 </details>
 
@@ -2752,41 +1534,14 @@ Explain JOIN and composite keys in the database.
 - **JOIN**: JOIN is used to combine rows from two or more tables based on a related column between them. There are different types of JOINs in SQL, such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
 - **Composite Key**: A composite key is a combination of two or more columns in a table that can be used to uniquely identify each row in the table. A composite key is also known as a compound key.
 
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [PostgreSQL: Indexes](https://www.postgresql.org/docs/current/indexes.html) — B-tree index internals
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Conceptual demo — not always required for pure theory MCQs
-const example = { topic: "interview-answer", depth: "definition + example + trade-off" };
-console.log(JSON.stringify(example, null, 2));
-```
 
 
-#### Code walkthrough
-Use this tab to show you can express ideas in code when asked; focus verbal answer on theory.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | N/A (conceptual) |
-| Space | N/A (conceptual) |
-
-
-#### Edge cases
-N/A — no algorithmic edge cases.
-
-</details>
 
 </article>
 
@@ -2798,48 +1553,13 @@ Learn about polymorphism and inheritance in DB in your free time. (This is not a
 
 Runtime **polymorphism** — virtual dispatch picks overridden `fight()` per actual type.
 
-Runtime **polymorphism** — virtual dispatch picks overridden `fight()` per actual type.
-
-
-
-**Interview talking points**
-
-- Relate the answer to the company stack (Java, Spring, Node, React) when you have project experience.
-- Mention trade-offs (time vs space, consistency vs availability) if applicable.
-
 #### Further reading
 - [Oracle Java Tutorials: OOP](https://docs.oracle.com/javase/tutorial/java/concepts/) — class design
 
 </details>
 
 
-<details><summary>Solution (JavaScript)</summary>
-
-```js
-// Illustrative pattern — adapt naming and types in the interview
-function solve(input) {
-  // 1. Validate input
-  // 2. Apply algorithm from theory tab
-  // 3. Return result
-  return input;
-}
-```
 
 
-#### Code walkthrough
-Walk through validation, core logic from the theory section, and return value.
-
-#### Complexity
-
-| | |
-|-|-|
-| Time | See theory tab (typical O(n)–O(n log n) for array/graph MCQs) |
-| Space | O(1)–O(n) auxiliary depending on approach |
-
-
-#### Edge cases
-Empty input, single element, duplicates, overflow, and off-by-one bounds.
-
-</details>
 
 </article>

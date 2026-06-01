@@ -85,18 +85,27 @@ def split_cpp_from_details(details_body: str):
     return rest, cpp
 
 
+def dedupe_paragraphs(body: str) -> str:
+    paras = re.split(r"\n\n+", body.strip())
+    out: list[str] = []
+    prev_key: str | None = None
+    for p in paras:
+        p = p.strip()
+        if not p:
+            continue
+        key = re.sub(r"\s+", " ", p).lower()
+        if prev_key is not None and key == prev_key:
+            continue
+        out.append(p)
+        prev_key = key
+    return "\n\n".join(out)
+
+
 def wrap_theory_body(body: str, question: str) -> str:
     body = body.strip()
-    body = re.sub(
-        r"\n*\*\*Interview talking points\*\*\s*\n- Tie your answer to Exabyting/BS23[^\n]*\n- Mention trade-offs[^\n]*\n*",
-        "\n\n",
-        body,
-    )
     if "#### Further reading" not in body:
-        body += "\n\n**Interview talking points**\n\n- State a clear definition, then one concrete example from work or projects.\n- Mention trade-offs (time vs space, consistency vs availability) when they apply.\n\n" + further_reading_links(question)
-    elif "**Interview talking points**" not in body:
-        body += "\n\n**Interview talking points**\n\n- Lead with the direct answer, then justify with one example.\n"
-    return body
+        body += "\n\n" + further_reading_links(question)
+    return dedupe_paragraphs(body)
 
 
 def add_js_section(js_code: str, walkthrough: str, time: str, space: str, edges: str) -> str:
@@ -425,7 +434,12 @@ def enrich_article(block: str, company: str) -> str:
 
     topic = match_topic_theory(question)
     if topic:
-        main_theory_body = (topic + "\n\n" + main_theory_body).strip() if main_theory_body else topic
+        topic_key = re.sub(r"\s+", " ", topic.strip().lower())[:120]
+        body_key = re.sub(r"\s+", " ", main_theory_body.strip().lower())[:120]
+        if topic_key != body_key and topic_key not in main_theory_body.lower():
+            main_theory_body = (
+                (topic + "\n\n" + main_theory_body).strip() if main_theory_body else topic
+            )
 
     if not main_theory_body:
         main_theory_body = match_topic_theory(question) or (
@@ -585,16 +599,9 @@ def cleanup_generic_theory(text: str) -> str:
 
 
 def main():
+    print("Use scripts/cleanup_enrichment.py to fix duplicates and placeholder tabs.")
     for p in (EXABYTING, BS23):
-        text = p.read_text(encoding="utf-8")
-        text = cleanup_generic_theory(text)
-        text = add_missing_js(text)
-        p.write_text(text, encoding="utf-8")
-        print(
-            f"{p.name}: theory={text.count('Theory and explanation')}, "
-            f"js={text.count('Solution (JavaScript)')}, "
-            f"generic_bs23={text.count('Tie your answer to Exabyting/BS23')}"
-        )
+        process_file(p)
 
 
 if __name__ == "__main__":
