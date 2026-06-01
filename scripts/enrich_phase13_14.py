@@ -326,6 +326,7 @@ Stateless auth; revoke via short `exp` + refresh tokens or server denylist.""",
 
 `unordered_map` — hash table, **O(1)** average, **O(n)** worst if all keys collide (bad hash / attack).""",
     "navigation system": """Browser history: **two stacks** — back stack (LIFO) and forward stack. Visit pushes URL on back, clears forward. Back pops to forward. Classic **stack** application.""",
+    "stack be most appropriate": """Use a **stack (LIFO)** when the most recent item must be undone or processed first: browser back, editor undo, parentheses matching, iterative DFS, postfix evaluation. Queues fit FIFO (printer, BFS); heaps fit priority — not stacks.""",
     "ratio of black to red": """Let black = `3x`, red = `7x`. After +20 black: `(3x+20)/7x = 1/2` → `6x+40=7x` → `x=40`. Red = `7x` = **280**.""",
     "unique constraint": """**UNIQUE** allows **multiple NULLs** in SQL (NULL ≠ NULL). **PRIMARY KEY** implies UNIQUE + NOT NULL. False statement: unique prevents nulls.""",
     "catch the first train": """Head start 60 km at 7 AM. Relative speed 30 km/h → time 2 h from 8 AM → **10:00 AM**.""",
