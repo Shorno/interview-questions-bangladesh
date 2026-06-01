@@ -7,7 +7,7 @@ const companiesMap = [
       { text: 'Appscode <span class="VPBadge tip">new</span>', link: "/appscode" },
       { text: 'Bkash <span class="VPBadge tip">new</span>', link: "/bkash" },
       { text: 'Chaldal <span class="VPBadge warning">updated</span>', link: "/chaldal" },
-      { text: "Bevy Commerce", link: "/bevycommerce" },
+      { text: 'Bevy Commerce <span class="VPBadge warning">updated</span>', link: "/bevycommerce" },
       { text: 'Brain Station 23 <span class="VPBadge warning">updated</span>', link: "/bs23" },
       { text: "DSI", link: "/dsi" },
       { text: 'Envobyte <span class="VPBadge tip">updated</span>', link: "/envobyte" },
